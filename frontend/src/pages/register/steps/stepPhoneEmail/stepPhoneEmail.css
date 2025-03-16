@@ -1,0 +1,29 @@
+.buttons{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+
+    
+}
+.buttons button{
+    margin: 5px;
+    margin-bottom: 0px;
+    background-color:rgb(43, 43, 43);
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+#active{
+background-color: blue;
+}

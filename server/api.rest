@@ -1,0 +1,8 @@
+// creat the post request for the http://localhost:4444/api/send-otp
+
+    POST http://localhost:4444/api/send HTTP/1.1
+    Content-Type: application/json
+
+    {
+        "phone":'654646464948948947'
+    }

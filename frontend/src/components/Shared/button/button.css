@@ -1,0 +1,27 @@
+.get-username-button {
+    background-color: #2303f7d2;
+    /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    transition: background-color 0.3s;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px 60px 10px 70px;
+    justify-content: space-between;
+}
+
+.get-username-button:hover {
+    background-color: #3905b3;
+    scale: 1.05;
+    /* Darker shade on hover */
+}
+
+
+
+

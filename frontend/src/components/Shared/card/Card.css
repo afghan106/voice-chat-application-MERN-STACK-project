@@ -1,0 +1,35 @@
+.welcome-card {
+    
+    background-color: #222222ff;
+    /* Card background */
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+p{
+    color: #c4c5c5;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}

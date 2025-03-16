@@ -1,0 +1,62 @@
+
+:root {
+    --dark-background: #121212;
+    --light-background: rgb(228, 227, 227);
+    --font-white: #fff;
+    --font-black: #000;
+
+}
+
+
+
+html{box-sizing: border-box;
+font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6,p,ol,ul{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    --webkit-font-smoothing:antialiased;
+};
+ol,ul{
+    list-style: none;
+
+};
+
+img{
+    max-width: 100;
+    height: auto;
+
+}
+
+body{
+    background-color:var(--dark-background) ;
+    color: var(--font-white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 1200lx;
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    /* Dark background */
+    color: #ffffff;
+    /* White text */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
